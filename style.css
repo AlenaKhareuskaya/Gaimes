@@ -1,0 +1,96 @@
+*{
+	font-size: 15px;
+	text-decoration: none;	
+}
+
+body{
+font-family: 'Creepster', cursive;
+background-color: black;
+color: white;
+
+}
+
+
+div.main{
+	display: flex;
+}
+nav{
+	flex: 100px;
+}
+nav p{
+	font-size: 35px;
+}
+nav ul li{
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+nav ul li:hover{
+	color: blue;
+}
+/*nav ul li a:link{
+	color: white;
+}*/
+.content{
+	display: flex;
+	flex: 60%;
+}
+.advs{
+	display: flex;
+	flex-direction: column;
+	flex: 10%;
+}
+.articles{
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	
+	align-items: baseline;
+
+}
+.article{
+	background-color: grey;
+	border-radius: 15px;
+	text-align: center;
+	
+}
+.article img{
+	border-radius: 15px;
+	
+}
+.article div{
+	margin-top: 5px;
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+header div{
+	font-size: 70px;
+}
+footer{
+	display: flex;
+}
+.advs{
+    animation: advs 5s  infinite;
+	animation-timing-function: linear;
+}
+@keyframes advs{
+	0% {
+		opacity: 1;
+	}
+	25%{
+		opacity: 0.6;
+	}
+	40%{
+		opacity: 0.1;
+	}
+	80%{
+		opacity: 0.6;
+	}
+	100%{
+		opacity: 1;
+	}
+}
